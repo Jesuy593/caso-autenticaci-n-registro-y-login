@@ -1,0 +1,37 @@
+API REGISTRO Y LOGIN - MONGODB
+
+BASE URL
+http://localhost:3000
+
+-------------------------
+ENDPOINT 1: REGISTRO
+-------------------------
+Metodo: POST 
+URL: /api/register
+
+Body JSON:
+{
+    "usuario":"admin",
+    "password":"123"
+}
+
+Respuesta:
+Usuario registrado correctamente
+
+------------------------------
+ENDPOINT 2: LOGIN
+------------------------------
+Metodo: POST
+URL: /api/login
+
+Body JSON:
+{
+    "usuario":"admin",
+    "password":"123"
+}
+
+Respuesta correcta:
+Autenticacion satisfatoria
+
+Respuesta error:
+Error en la autenticacion
